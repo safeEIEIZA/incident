@@ -1,0 +1,43 @@
+/*Table style*/
+
+
+
+#fetch_data {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    z-index: 1;
+    
+    
+  }
+
+  #fetch_data td,
+  #fetch_data td {
+    text-align: center;
+    padding: 10px 10px;
+    border: 1px solid #DFDFDF;
+    background-color: #F3F3F3;
+    font-size: 12px;
+    white-space: pre-line;
+    max-width: 100px;
+    word-wrap: break-word;
+
+    
+  }
+
+  #fetch_data tr {
+    border-bottom: 1px solid #f1f1f1;
+  }
+
+  #fetch_data th,
+  #fetch_data th {
+    padding: 12px 20px; /* ปรับขนาดของ padding ที่ต้องการ */
+    font-size: 12px; /* ปรับขนาดของตัวอักษรที่ต้องการ */
+    font-weight: bold; /* ปรับ font-weight ถ้าต้องการ */
+    background-color: #FFAD5A; /* ปรับสีพื้นหลังของ th ตามที่ต้องการ */
+    border: 1px solid #DFDFDF; /* ปรับเส้นขอบของ th ตามที่ต้องการ */
+    text-align: center; /* ปรับการจัดกึ่งกลางข้อความภายใน th ตามที่ต้องการ */
+    color: white;
+  }

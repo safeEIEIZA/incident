@@ -1,0 +1,48 @@
+@keyframes flashing {
+	0% {
+		color: #ffffff; /* เริ่มต้นเป็นตัวหนังสือที่เห็น */
+	}
+	50% {
+		color: rgb(255, 44, 44); /* กลางครึ่งของการกระพริบ ซ่อนตัวหนังสือ */
+	}
+	100% {
+		color: #ffffff; /* สิ้นสุดการกระพริบ กลับมาเป็นตัวหนังสือที่เห็น */
+	}
+}
+
+/* ปรับแต่งตามต้องการ */
+.flashing-textd {
+	animation: flashing 2s infinite;
+	/* อาจต้องเพิ่มข้อมูลเพิ่มเติม เช่น font-size, font-family, ตำแหน่ง ฯลฯ */
+}
+
+
+
+.flashing-textd{
+
+	font-family: Andale Mono, monospace;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+
+.btn.btn-primary{
+    background-color: #0059ff;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: 0.2s all;
+	transition: transform 0.2s ease, background-color 0.2s ease;
+	font-weight: bold; /* กำหนดความหนาของตัวอักษร */
+	font-family: Andale Mono, monospace;
+    
+}
+
+
+.btn.btn-primary:hover {
+    transform: scale(1.1); /* ขยายขนาดปุ่มเมื่อเอาเมาส์ไปชี้ */
+    transition: transform 0.3s ease; /* ให้มี animation เพื่อสร้างเอฟเฟคการขยาย */
+    background-color: #02399e;
+  }

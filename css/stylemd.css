@@ -1,0 +1,245 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(255, 0, 0); /* Fallback color */
+    background-color: #ececec66; /* Black w/ opacity */
+    background-image: url('https://files.123freevectors.com/wp-content/original/131507-abstract-orange-and-white-triangle-geometric-background-illustration.jpg');
+    
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+
+/*Close btn*/
+
+
+.btnClose {
+
+    background-color: #f84c17;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10%;
+
+  }
+
+  .btnClose:hover {
+    background-color: #ff7260;
+  }
+
+
+
+
+
+
+  /*Save btn*/
+
+
+.btnSave {
+
+    background-color: #175ef8;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10%;
+    float: right;
+  }
+
+  .btnSave:hover {
+    background-color: #6f9dff;
+}
+
+
+
+
+
+
+
+  /*filter btn*/
+
+  input[type=button],
+  input[type=filter],
+  input[type=reset],
+  button[type=filter] {
+    background-color: #bc24f8;
+    border: none;
+    color: white;
+    padding: 6px 8px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10%;
+  }
+
+  .filter:hover {
+    background-color: #8e1bbb;
+    transform: scale(1.1);
+  }
+  
+
+
+  /*refresh btn*/
+
+  input[type=button],
+  input[type=refresh],
+  input[type=refresh],
+  button[type=refresh] {
+    background-color: #23DBE3;
+    border: none;
+    color: white;
+    padding: 6px 8px;
+
+    text-decoration: none;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10%;
+  }
+
+  .refresh:hover {
+    background-color: #1EB2B9;
+  }
+
+
+
+  /*insert btn*/
+
+  input[type=insert],
+  input[type=insert],
+  input[type=insert],
+  button[type=insert] {
+    background-color: #FFA500;
+    border: none;
+    color: #FFA500;
+    padding: 6px 8px;
+
+    text-decoration: none;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10%;
+  }
+
+  .insert:hover {
+    background-color: #ca8e1f;
+  }
+
+
+
+/*Container*/
+
+  div.container {
+    width: 95%;
+    margin: auto;
+  }
+
+
+
+
+
+  .btnEdit{
+
+    background: url('../img/icons8-edit-64.png') no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+  }
+  .btnEdit:hover {
+    transform: scale(1.2);
+    color: #6e83b7;
+    background-size: 100% 100%;
+
+
+  }
+  .btnEdit:active {
+    outline: none;
+  }
+  .btnEdit:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+
+
+  .btnDelete{
+    background: url('../img/icons8-delete-24.png') no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+
+  }
+  .btnDelete:hover {
+    
+    transform: scale(1.2);
+    color: red;
+    background-color: red;
+    background-size: 100% 100%;
+
+  }
+  .btnDelete:active {
+    outline: none;
+  }
+  .btnDelete:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+
+/*background daterage*/
+
+  .well {
+    background-color: transparent; /* กำหนดพื้นหลังให้โปร่งใส */
+    border: none; /* ลบเส้นขอบ */
+    box-shadow: none; /* ลบเงา */
+  }
+  
+  .input-daterange {
+    background-color: transparent; /* กำหนดพื้นหลังให้โปร่งใส */
+    border: none; /* ลบเส้นขอบ */
+    box-shadow: none; /* ลบเงา */
+  }
+
+  .form-group {
+    position: relative;
+  }
+
+  .form-group textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+  }
+
+  .form-group textarea,
+  .select-control {
+    width: 100%;
+  }
+

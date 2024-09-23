@@ -1,0 +1,38 @@
+.expand-on-hover {
+    animation-name: fadeIn; /* ชื่อของ Animation */
+    animation-duration: 1s; /* ระยะเวลาในการเล่น Animation */
+    animation-delay: 0.5s; /* ระยะเวลาที่จะรอก่อนเริ่มเล่น Animation */
+    animation-fill-mode: forwards; /* แสดงผลสุดท้ายของ Animation หลังจบการเล่น */
+    opacity: 0; /* ตั้งค่าความโปร่งแสงเริ่มต้น */
+    text-align: center;
+    font-weight: bold; /* กำหนดความหนาของตัวอักษร */
+    letter-spacing: 3px; /* กำหนดระยะห่างแนวนอนระหว่างตัวอักษร */
+    max-width: 400px; /* กำหนดขนาดกรอบสูงสุดเป็น 400px */
+    margin: 0 auto; /* จัดตำแหน่งให้อยู่ตรงกลางตามแนวนอน */
+    background-image: url('../img/h2.png'); /* กำหนด URL ของรูปภาพ */
+    background-size: cover; /* กำหนดให้รูปภาพครอบคลุมพื้นที่ใน <h2> ทั้งหมด */
+    background-position: center;
+    color: rgb(255, 255, 255);
+    font-family: Andale Mono, monospace;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* ความโปร่งแสงเริ่มต้น */
+    }
+    to {
+      opacity: 1; /* ความโปร่งแสงสุดท้าย */
+    }
+  }
+
+
+  .expand-on-hover {
+    transition: transform 0.3s ease;
+  }
+  
+  .expand-on-hover:hover {
+    transform: scale(1.1);
+  }
+
+
